@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Marhey";
+  src: url("../fonts/Marhey-VariableFont_wght.ttf");
+}
 /* line 1, ../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -556,60 +560,95 @@ body, html {
 }
 
 /* line 2, ../sass/partials/_modules.scss */
+.bg-orange {
+  background-color: #de9d50 !important;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.border-orange {
+  border-color: #de9d50 !important;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
 .branches-s3 {
   background-position: right !important;
 }
 
-/* line 7, ../sass/partials/_modules.scss */
+/* line 17, ../sass/partials/_modules.scss */
 .contact-s1, .contact-s2 {
   background-color: #777 !important;
   background-blend-mode: multiply;
 }
-/* line 8, ../sass/partials/_modules.scss */
+/* line 18, ../sass/partials/_modules.scss */
 .contact-s1 *, .contact-s2 * {
   color: #fff !important;
   text-shadow: 1px 1px 3px #333;
 }
-/* line 15, ../sass/partials/_modules.scss */
+/* line 25, ../sass/partials/_modules.scss */
 .contact-s3 {
   background-color: #777 !important;
   background-blend-mode: multiply;
 }
 
-/* line 21, ../sass/partials/_modules.scss */
+/* line 31, ../sass/partials/_modules.scss */
 .index-s1, .branches-s1, .login-s1 {
   background-color: #777 !important;
   background-blend-mode: multiply;
 }
 
-/* line 27, ../sass/partials/_modules.scss */
+/* line 37, ../sass/partials/_modules.scss */
 .rolls-s1, .rolls-s3, .rolls-s5 {
   background-position: right !important;
 }
 
-/* line 31, ../sass/partials/_modules.scss */
+/* line 42, ../sass/partials/_modules.scss */
+.text-orange {
+  color: #de9d50 !important;
+}
+
+/* line 47, ../sass/partials/_modules.scss */
+footer *, footer .fa, footer .text-white {
+  color: #de9d50 !important;
+}
+/* line 50, ../sass/partials/_modules.scss */
+footer .border-top {
+  border-color: #de9d50 !important;
+}
+/* line 53, ../sass/partials/_modules.scss */
+footer.bg-dark {
+  background-color: #000 !important;
+}
+
+/* line 57, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  color: #de9d50 !important;
+  font-family: "Marhey";
+  letter-spacing: 1px;
+}
+
+/* line 62, ../sass/partials/_modules.scss */
 header {
   z-index: 100;
 }
 
-/* line 34, ../sass/partials/_modules.scss */
+/* line 65, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 40, ../sass/partials/_modules.scss */
+  /* line 71, ../sass/partials/_modules.scss */
   .branches-s1, .branches-s3 {
     background-color: #777 !important;
     background-blend-mode: multiply;
   }
-  /* line 41, ../sass/partials/_modules.scss */
+  /* line 72, ../sass/partials/_modules.scss */
   .branches-s1 *, .branches-s3 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #333;
   }
 
-  /* line 50, ../sass/partials/_modules.scss */
+  /* line 81, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #333;
     border: 1px solid #555;
@@ -617,12 +656,12 @@ textarea {
     padding-right: 10px;
   }
 
-  /* line 58, ../sass/partials/_modules.scss */
+  /* line 89, ../sass/partials/_modules.scss */
   .rolls-s1, .rolls-s3, .rolls-s4, .rolls-s5 {
     background-color: #777 !important;
     background-blend-mode: multiply;
   }
-  /* line 59, ../sass/partials/_modules.scss */
+  /* line 90, ../sass/partials/_modules.scss */
   .rolls-s1 *, .rolls-s3 *, .rolls-s4 *, .rolls-s5 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #333;
