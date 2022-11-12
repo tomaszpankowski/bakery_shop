@@ -1,3 +1,13 @@
+.bg{
+    &-orange{
+        background-color: $color__orange!important;
+    }
+}
+.border{
+    &-orange{
+        border-color: $color__orange!important;
+    }
+}
 .branches{
     &-s3{
         background-position: right!important;
@@ -27,6 +37,27 @@
     &-s1,&-s3,&-s5{
         background-position: right!important;
     }
+}
+.text{
+    &-orange{
+        color: $color__orange!important;
+    }
+}
+footer{
+    *,.fa,.text-white{
+        color: $color__orange!important;
+    }
+    .border-top{
+        border-color: $color__orange!important;
+    }
+    &.bg-dark{
+        background-color: #000!important;
+    }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    color: $color__orange!important;
+    font-family: "Marhey";
+    letter-spacing: 1px;
 }
 header{
     z-index: 100;
